@@ -6,7 +6,7 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "ssh root@chome 'cd /blog/huan-blog; git pull; pm2 start ecosystem.config.js --only blog-server'",
+    "deploy": "ssh root@chome 'cd ~/blog/huan-blog; git pull; pm2 start ecosystem.config.js --only blog-server'",
     "server": "hexo server"
   },
   "hexo": {
