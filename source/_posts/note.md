@@ -30,3 +30,15 @@ category: 笔记
 ``` bash
 npm install -g pm2
 ```
+
+### ngin
+```
+sudo yum install epel-release
+sudo yum install nginx
+sudo systemctl enable nginx // 设置开机启动
+Created symlink from /etc/systemd/system/multi-user.target.wants/nginx.service to /usr/lib/systemd/system/nginx.service.  // 软连接
+sudo systemctl start nginx  // 启动
+sudo systemctl status nginx // nginx运行状态
+nginx -t 
+nginx -s reload
+```
