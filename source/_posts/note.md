@@ -48,9 +48,9 @@ nginx -s reload
 netstat -tunlp|grep 15692
 ```
 
-### Git切换SSR代理
+### Git配置
 ```
-// 设置
+// 设置切换SSR代理
 git config --global https.proxy http://127.0.0.1:1081
 git config --global https.proxy https://127.0.0.1:1081
 
@@ -58,7 +58,13 @@ git config --global https.proxy https://127.0.0.1:1081
 //   取消
 git config --global --unset http.proxy
 git config --global --unset https.proxy
+
+// 设置局部登录用户
+git config user.name "A"
+git config user.email "A@hotmail.com"
+
 ```
+
 
 
 ### v2ray 服务器配置
