@@ -50,9 +50,12 @@ netstat -tunlp|grep 15692
 
 ### Git配置
 ```
+// 保存账号密码
+git config credential.helper store
 // 设置切换SSR代理
 git config --global https.proxy http://127.0.0.1:1081
 git config --global https.proxy https://127.0.0.1:1081
+
 
 
 //   取消
@@ -62,6 +65,24 @@ git config --global --unset https.proxy
 // 设置局部登录用户
 git config user.name "A"
 git config user.email "A@hotmail.com"
+
+// 本地修改了一些文件 (并没有使用 git add 到暂存区)，想放弃修改
+git checkout -- filename // 单个文件/文件夹：
+git checkout .  所有文件/文件夹：
+
+// 本地新增了一些文件 (并没有 git add 到暂存区)，想放弃修改
+rm  -rf filename //单个文件/文件夹：
+git clean -xdf  // 所有文件
+git clean -xdff // 所有文件和文件夹
+
+// 本地修改/新增了一些文件，已经 git add 到暂存区，想放弃修改
+git reset HEAD filename //单个文件/文件夹
+git reset HEAD . // 所有文件/文件夹：
+
+// 本地通过 git add 和 git commit 后，想要撤销此次 commit
+
+git reset commit_id  // 撤销 commit, 同时保留该 commit 修改
+git reset --hard commit_id //撤销 commit, 同时本地删除该 commit 修改
 
 ```
 
