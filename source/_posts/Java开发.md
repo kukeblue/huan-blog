@@ -25,3 +25,4 @@ category: java
 
 ### Java
 - 安装[https://blog.csdn.net/qq_33565047/article/details/104019584]
+- 用户密码加密[https://aijishu.com/a/1060000000079797]
