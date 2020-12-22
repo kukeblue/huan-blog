@@ -83,6 +83,7 @@ git reset HEAD . // 所有文件/文件夹：
 
 git reset commit_id  // 撤销 commit, 同时保留该 commit 修改
 git reset --hard commit_id //撤销 commit, 同时本地删除该 commit 修改
+【git子模块设置】https://www.jianshu.com/p/9000cd49822c
 
 ```
 
