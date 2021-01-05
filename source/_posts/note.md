@@ -113,3 +113,6 @@ git reset --hard commit_id //撤销 commit, 同时本地删除该 commit 修改
 ### 响应试网站设计
 [文章地址]https://juejin.cn/post/6844903814332432397
  
+
+### 文件预览系统
+[文件预览系统]https://kkfileview.keking.cn/zh-cn/docs/production.html
