@@ -43,9 +43,10 @@ nginx -t
 nginx -s reload
 ```
 
-### 端口查看
+### 端口查看 || 内存
 ```
 netstat -tunlp|grep 15692
+
 ```
 
 ### Git配置
@@ -119,3 +120,4 @@ git reset --hard commit_id //撤销 commit, 同时本地删除该 commit 修改
 
 
 ### WebSocket
+[websocket]https://juejin.cn/post/6844903655221493774
