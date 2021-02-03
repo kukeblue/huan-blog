@@ -24,8 +24,9 @@ category: java
 - 安装[https://yeasy.gitbook.io/docker_practice/install/centos]
 ```
 docker rmi $(docker images | grep "none" | awk '{print $3}') // 删除none镜像
+docker run -it -p 8012:8012 -v /opt/paper:/opt/kkFileView-3.3.1/file keking/kkfileview
+ 
 ```
-
 ### Java
 - 安装[https://blog.csdn.net/qq_33565047/article/details/104019584]
 - 用户密码加密[https://aijishu.com/a/1060000000079797]
