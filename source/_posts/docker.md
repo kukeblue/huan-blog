@@ -7,4 +7,5 @@ category: Docker
 
 ```
     docker run -d -it -v /home/dock/file:/opt/kkFileView-2.2.1/file -p 8012:8012 keking/kkfileview
+    docker run -it -p 8012:8012 -v /opt/paper:/opt/kkFileView-3.3.1/file keking/kkfileview
 ```
