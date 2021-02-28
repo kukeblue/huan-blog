@@ -9,14 +9,14 @@ layout: about
 ## 个⼈信息
 
 - 陈焕/1993
-- phone 18370893382/19800363625  --wx&QQ 821826173  --email 821826173@qq.com
+- phone: 18370893382
+- email:  821826173@qq.com
 - 本科/江⻄理⼯⼤学
-- blog:https://blog.kukechen.top/
-- github: https://github.com/kukeblue
-- ⼯作年限：5年
-- 期望职位： 前端开发
-- 期望⽉薪：15K ~ 20K
-
+- ⼯作年限: 5年
+- 期望职位: 前端开发
+- 期望⽉薪: 15K ~ 20K
+- blog: blog.kukechen.top 
+- gitHub: github.com/kukeblue
 
 ## 技能清单
 以下均为我熟悉的技能
