@@ -31,3 +31,7 @@ docker run -it -p 8012:8012 -v /opt/paper:/opt/kkFileView-3.3.1/file keking/kkfi
 - 安装[https://blog.csdn.net/qq_33565047/article/details/104019584]
 - 用户密码加密[https://aijishu.com/a/1060000000079797]
 
+
+### redis
+- 安装[https://www.cnblogs.com/zpf0717/p/13786265.html]
+
