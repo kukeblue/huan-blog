@@ -35,3 +35,22 @@ docker run -it -p 8012:8012 -v /opt/paper:/opt/kkFileView-3.3.1/file keking/kkfi
 ### redis
 - 安装[https://www.cnblogs.com/zpf0717/p/13786265.html]
 
+
+### spring boot 注解
+```
+    PostMapping 
+```
+
+### 数据类型
+- int64 和 int32的区别
+
+
+### rabbitMQ
+介绍[https://juejin.cn/post/6910088163570483214#heading-18]
+启动[https://www.jianshu.com/p/60c358235705]
+
+
+### gRPC
+
+文档[https://doc.oschina.net/grpc?t=60134]
+![](https://i.loli.net/2021/03/23/rdMzpAiasJw6Uuj.png)
