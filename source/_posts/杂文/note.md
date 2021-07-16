@@ -124,3 +124,9 @@ git reset --hard commit_id //撤销 commit, 同时本地删除该 commit 修改
 
 ### HTTPS 申请
 https://juejin.cn/post/6844903957165244430
+
+
+### redis 开机自动启动
+Mac设置redis开机启动[https://www.jianshu.com/p/afb1b1796cc6]
+
+### 安装rabbitmq
