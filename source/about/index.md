@@ -15,12 +15,12 @@ layout: about
 - ⼯作年限: 6年
 - 期望职位: 前端开发
 - 期望⽉薪: 15K ~ 20K
-- blog: https://ch-ui.kukechen.top 
+- blog: https://blog.kukechen.top
 - gitHub: github.com/kukeblue
 
 ## 技能清单
 以下均为我熟悉的技能
-- 语⾔：Js/Java/Python/lua
+- 语⾔：Js/Java/Python/Lua
 - 后端框架： Express / Koa / springboot
 - web前端UI框架：React/Vue/Antd/element-ui
 - web数据流框架：hox/unstated-next/mobx/dva/
